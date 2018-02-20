@@ -1,15 +1,14 @@
 # Bitcoin Cash Wallet
 
-<img src="https://bitcoin.tax/blog/content/images/2017/08/bitcoincash.png">
+<img src="https://cnet2.cbsistatic.com/img/qWBIJ3gZZ79UH78phcICbkLdVkQ=/fit-in/x/2018/01/23/045b3788-e393-4e72-8fed-2f25acd96cd5/ltc-1024x337.png">
 
-This is a fork of https://github.com/OpenBazaar/spvwallet modfied for Bitcoin Cash. It includes a fully functional GUI wallet and CLI.
+This is a fork of https://github.com/OpenBazaar/spvwallet modfied for Litecoin. It includes a fully functional GUI wallet and CLI.
 
-It uses stock btcd plus a few cash specific modifications found in the [bchutil](https://github.com/cpacia/bchutil) package.
+It uses stock btcd.
 
 To compile and run:
 ```bash
-go get https://github.com/cpacia/BitcoinCash-Wallet
+go get https://github.com/leeholim/Litecoin-SPV-Wallet
 make install
-bitcoincash
+litecoin
 ```
-Or download a pre-compiled version from [releases](https://github.com/cpacia/BitcoinCash-Wallet/releases).
